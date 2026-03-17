@@ -2,6 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        cafe = new Cafe("Latte");
+         Cafe tamano = new Cafe("Grande");
+         Cafe precio = new Cafe(1800);
     }
 }
